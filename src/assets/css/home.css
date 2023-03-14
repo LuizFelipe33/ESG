@@ -44,6 +44,7 @@ img{
 
 @media(max-width:650px ){
     .contmain{
+        overflow: hidden;
         align-items: center;
         justify-content: center;
         flex-direction: column;

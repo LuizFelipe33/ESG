@@ -22,6 +22,7 @@
 }
 @media(max-width:650px ){
     .lista{
+        overflow: hidden;
         visibility: hidden;
         flex-direction: column;
     }
