@@ -6,8 +6,7 @@ const Home = () => {
         <div className='cont'>
             <div className='contmain'>
                 <div className='contesg'>
-                    <h1 className='nomeesg'>ESG</h1>
-                    <button className='nome'>Sobre</button>
+                    <h1 className='nomeesg'>ESG</h1>  
                 </div>
                 <div className="contimg">
                     <img src={imagem} className="ss" alt="..." />
@@ -18,6 +17,7 @@ const Home = () => {
                         trabalha em prol de objetivos sociais que vão além do papel de uma corporação para maximizar os lucros
                         em nome dos acionistas da corporação
                     </p>
+                    <button className='nome'>Saiba mais</button>
                 </div>
             </div>
 

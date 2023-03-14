@@ -14,6 +14,7 @@
 }
 .nomeesg{
     font-size: 60px;
+    animation: taadaa 3s;
 }
 .nome{
     color: #88976f;
@@ -21,17 +22,20 @@
     outline: none;
     padding: 15px;
     border-radius: 20px;
+    animation: taadaa 3s;
 }
 .contimg{
     display: flex;
     height: 600px;
     background-color: #88976f;    
+    
 }
 .contparag{
     flex-direction: column;
     width: 20%;
     margin-top: 200px;
     color: white;
+    animation: taadaa 3s;
 }
 .cont2{
     width: 100%;
@@ -40,8 +44,20 @@
 img{
     width: 400px;
     height: 600px;
+    animation: taadaa 3s;
 }
-
+@keyframes taadaa { 
+    0% {
+      opacity: 0;
+    }
+    50% {
+        opacity: 0.5;
+      }
+  
+    100% {
+      opacity: 1;
+    }
+  }
 @media(max-width:650px ){
     .contmain{
         overflow: hidden;
