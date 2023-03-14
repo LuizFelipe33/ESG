@@ -1,0 +1,28 @@
+.navmain{
+    width: 100%;
+    height: 100px;
+    background-color: #88976f;
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    color: white;
+    margin: 20px;
+}
+.lista{
+    display: flex;
+    margin-top: 35px;
+    margin-right: 40px;
+}
+.lista a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    margin-right: 30px;
+}
+@media(max-width:650px ){
+    .lista{
+        visibility: hidden;
+        flex-direction: column;
+    }
+}
