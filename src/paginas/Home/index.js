@@ -1,10 +1,13 @@
 import '../../assets/css/home.css'
 import imagem from '../../assets/arvore.png'
 import Cursos from '../Cursos';
+import Cabecalho from '../../componentes/Cabecalho';
+import Rodape from '../../componentes/Rodape';
 
 const Home = () => {
     return (
         <div className='cont'>
+             <Cabecalho/>
             <div className='contmain'>
                 <div className='contesg'>
                     <h1 className='nomeesg'>ESG</h1>  
@@ -25,6 +28,7 @@ const Home = () => {
             <div className='cont2'>
                 <Cursos/>
             </div>
+            <Rodape/>
         </div>
         
     )
