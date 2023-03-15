@@ -1,20 +1,20 @@
 export const cursos = [
     {
-        titulo: "Lógica de Programação com Python",
-        texto: "Aprenda fundamentos da lógica de programação com linguagem Python.",
-        rotulo: "Matricule-se já!",
-        imagem: require("../assets/imagem_placeholder.png")
+        titulo: "Sustentabilidade",
+        texto: "Sustentabilidade é a busca pelo equilíbrio entre o suprimento das necessidades humanas e preservação dos recursos naturais, não comprometendo as próximas gerações",
+        rotulo: "Saiba Mais",
+        imagem: require("../assets/susten.jpg")
     },
     {
-        titulo: "Java Web com Spring Boot",
-        texto: "Aprenda o framework Spring Boot e crie REST APIs.",
-        rotulo: "Matricule-se já!",
-        imagem: require("../assets/imagem_placeholder.png")
+        titulo: "Empresas",
+        texto: "Sustentabilidade é a busca pelo equilíbrio entre o suprimento das necessidades humanas e preservação dos recursos naturais, não comprometendo as próximas gerações",
+        rotulo: "Saiba Mais",
+        imagem: require("../assets/susten.jpg")
     },
     {
-        titulo: "Java Experience",
-        texto: "Participe de uma experiência imersiva empresarial usando Git e Métodos Ágeis.",
-        rotulo: "Matricule-se já!",
-        imagem: require("../assets/imagem_placeholder.png")
+        titulo: "Ações",
+        texto: "Sustentabilidade é a busca pelo equilíbrio entre o suprimento das necessidades humanas e preservação dos recursos naturais, não comprometendo as próximas gerações",
+        rotulo: "Saiba Mais",
+        imagem: require("../assets/susten.jpg")
     }
 ]

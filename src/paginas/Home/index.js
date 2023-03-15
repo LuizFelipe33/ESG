@@ -1,5 +1,6 @@
 import '../../assets/css/home.css'
 import imagem from '../../assets/arvore.png'
+import Cursos from '../Cursos';
 
 const Home = () => {
     return (
@@ -21,7 +22,9 @@ const Home = () => {
                 </div>
             </div>
 
-            <div className='cont2'></div>
+            <div className='cont2'>
+                <Cursos/>
+            </div>
         </div>
         
     )

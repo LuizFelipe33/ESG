@@ -1,6 +1,6 @@
 const CursoCard = ({ imagem, titulo, texto, rotulo }) => {
     return (
-        <div className="card" style={{ width: 350 }}>
+        <div className="card" style={{ width: 350, height:500 }}>
             <img src={imagem} className="card-img-top" alt="..." />
             <div className="card-body">
                 <h5 className="card-title">{titulo}</h5>
