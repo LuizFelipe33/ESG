@@ -1,10 +1,13 @@
 import '../../assets/css/global.css'
 import logo from '../../assets/vetor.jpg'
 import { useEffect, useState } from 'react'
+import { useNavigate } from 'react-router-dom'
 const Login = () =>{
 
     const [nome, setNome] = useState("")
     const [senha, setSenha] = useState("")
+
+    const navegation = useNavigate()
 
     useEffect(() => {
         console.log(nome)
@@ -59,7 +62,12 @@ const Login = () =>{
                                 type="button" 
                                 class="btn bg-success btn-lg text-white"
                                 onClick={() => {
-
+                                    navegation("/consultoria", {
+                                        state: {
+                                            nome: nome,
+                                            senha: senha
+                                        }
+                                    })
                                 }}
                                 >Login</button>
                                 <p class="small fw-bold mt-2 pt-1 mb-0">Don't have an account? <a href="#!"

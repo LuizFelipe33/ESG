@@ -1,12 +1,10 @@
-import Cabecalho from "../../componentes/Cabecalho";
+
 import CursoCard from "../../componentes/CursoCard";
-import Rodape from "../../componentes/Rodape";
 import { cursos } from "../../mocks/cursos";
 
 const Cursos = () => {
     return (
         <div>
-            <Cabecalho/>
             <div className="container text-center my-5">
             <div className="row">
                 {
@@ -26,7 +24,6 @@ const Cursos = () => {
             </div>
             
         </div>
-        <Rodape/>
         </div>
     )
 }

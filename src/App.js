@@ -4,9 +4,11 @@ import Cursos from "./paginas/Cursos";
 import Home from "./paginas/Home";
 import './assets/css/global.css'
 import Login from "./paginas/Login";
+import TemaProvider from "./contexts/TemaContexts";
 
 const App = () => {
   return (
+    <TemaProvider>
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Home />} />
@@ -15,6 +17,7 @@ const App = () => {
         <Route path="/login" element={<Login/>} />
       </Routes>
     </BrowserRouter>
+    </TemaProvider>
   );
 }
 
