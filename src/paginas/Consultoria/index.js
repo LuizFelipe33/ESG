@@ -3,6 +3,7 @@ import { useLocation } from "react-router-dom";
 import Cabecalho from "../../componentes/Cabecalho";
 import Rodape from "../../componentes/Rodape";
 import { obterEndereco} from "../../service/api.js"
+import "../../assets/css/consultoria.css"
 
 const Consultoria = () => {
 
@@ -13,7 +14,6 @@ const Consultoria = () => {
         // lógica de validar o CEP
         // alert("Cep no formato inválido")
     }
-
 
     return (
         <>
@@ -41,20 +41,20 @@ const Consultoria = () => {
             {
                 !!endereco && (
                     <>
-                        <div className="form-floating my-3 w-25">
-                            <p>
+                        <div className="espacoCep">
+                            <p className="paragrafo">
                                 <b>Logradouro: </b>
-                                {endereco.logradouro}
-                            </p>
-                            <p>
+                                    {endereco.logradouro}
+                                </p>
+                            <p className="paragrafo">
                                 <b>Complemento: </b>
                                 {endereco.complemento}
                             </p>
-                            <p>
+                            <p className="paragrafo">
                                 <b>Bairro: </b>
                                 {endereco.bairro}
                             </p>
-                            <p>
+                            <p className="paragrafo">
                                 <b>Localidade: </b>
                                 {endereco.localidade}
                             </p>
