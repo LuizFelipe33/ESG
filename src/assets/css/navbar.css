@@ -43,7 +43,12 @@
     margin-right: 30px;
 }
 @media(max-width:650px ){
-    .lista{
+    .lista1{
+        overflow: hidden;
+        visibility: hidden;
+        flex-direction: column;
+    }
+    .lista2{
         overflow: hidden;
         visibility: hidden;
         flex-direction: column;
