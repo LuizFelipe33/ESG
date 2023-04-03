@@ -1,0 +1,15 @@
+.sasb-navbar {
+    position: absolute;
+    z-index: 1;
+}
+.btn.btn-sasb-blue {
+    background-color: #88976f;
+    border-width: 1;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    padding-inline: 25px;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+}

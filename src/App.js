@@ -5,6 +5,7 @@ import Home from "./paginas/Home";
 import './assets/css/global.css'
 import Login from "./paginas/Login";
 import TemaProvider from "./contexts/TemaContexts";
+import Mapap from "./paginas/mapa/MapaPag";
 
 const App = () => {
   return (
@@ -15,6 +16,7 @@ const App = () => {
         <Route path="/cursos" element={<Cursos />} />
         <Route path="/consultoria" element={<Consultoria />} />
         <Route path="/login" element={<Login/>} />
+        <Route path="/mapa" element={<Mapap/>} />
       </Routes>
     </BrowserRouter>
     </TemaProvider>

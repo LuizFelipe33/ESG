@@ -30,6 +30,7 @@ const Cabecalho = () => {
                 <ul><Link to={'/'}>Home</Link></ul>
                 <ul><Link to={'/cursos'}>Cursos</Link></ul>
                 <ul><Link to={'/consultoria'}>Consultoria</Link></ul>
+                <ul><Link to={'/mapa'}>Mapa</Link></ul>
             </li>
             
           </div>
